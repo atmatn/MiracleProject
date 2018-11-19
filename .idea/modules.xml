@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/datatree-dev-port-8086/datatree-dev-port-8086.iml" filepath="$PROJECT_DIR$/datatree-dev-port-8086/datatree-dev-port-8086.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud/mycloud.iml" filepath="$PROJECT_DIR$/mycloud/mycloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud-dev-port-8081/mycloud-dev-port-8081.iml" filepath="$PROJECT_DIR$/mycloud-dev-port-8081/mycloud-dev-port-8081.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mycloud-project.iml" filepath="$PROJECT_DIR$/.idea/mycloud-project.iml" />

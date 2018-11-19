@@ -4,6 +4,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/mycloud/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/microservicecloud-provider-dept-8001/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/microservicecloud-provider-dept-8001/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
