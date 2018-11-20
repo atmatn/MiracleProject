@@ -47,12 +47,8 @@
 		<dependency><!--通用Mapper依赖-->
 			<groupId>tk.mybatis</groupId>
 			<artifactId>mapper</artifactId>
-			<version>3.3.8</version>
+			<version>4.0.0</version>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>com.alibaba</groupId>-->
-			<!--<artifactId>druid</artifactId>-->
-		<!--</dependency>-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

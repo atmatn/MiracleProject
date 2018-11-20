@@ -1,6 +1,7 @@
 package com.youdao.crop.service;
 import com.youdao.crop.entities.Data_tree_items;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 /**
@@ -8,5 +9,5 @@ import java.util.List;
  */
 @Service
 public interface Data_tree_itemsService {
-    public List<Data_tree_items> queryList();
+    List<Data_tree_items> queryList();
 }

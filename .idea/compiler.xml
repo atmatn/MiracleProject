@@ -16,6 +16,7 @@
       <module name="datatree-dev-port-8087" target="1.8" />
       <module name="mycloud" target="1.8" />
       <module name="mycloud-dev-port-8081" target="1.8" />
+      <module name="springboot-dataTree-port-8087" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

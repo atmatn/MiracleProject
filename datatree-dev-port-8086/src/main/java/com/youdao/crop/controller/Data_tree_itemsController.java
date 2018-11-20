@@ -1,6 +1,7 @@
 package com.youdao.crop.controller;
 import com.youdao.crop.entities.Data_tree_items;
 import com.youdao.crop.service.Data_tree_itemsService;
+import com.youdao.crop.service.impl.Data_tree_itemsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,8 +13,8 @@ import java.util.List;
  */
 @RestController
 public class Data_tree_itemsController {
-    @Autowired
-    Data_tree_itemsService service;
+    //@Autowired
+    Data_tree_itemsServiceImpl service=new Data_tree_itemsServiceImpl();
     @RequestMapping(value="/list",method = RequestMethod.GET)
     public List<Data_tree_items> getList(){
         return service.queryList();
